@@ -1,0 +1,7 @@
+.inputField {
+    @apply p-2  rounded-md focus:outline-none bg-[#eee] w-full;
+}
+
+.inputBtn {
+    @apply w-full justify-center flex p-2 rounded-md bg-gray-200 mx-1 my-1 hover:bg-gray-300 transition-all ease-in-out;
+}
