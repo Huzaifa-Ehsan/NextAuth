@@ -30,7 +30,7 @@ export default function Component() {
 function Guest() {
   return (
     <main className="flex flex-col items-center justify-center">
-      <h3 className="my-2 font-bold">Guest Homepage</h3>
+      <h3 className="my-2 font-bold">For Guest Homepage</h3>
       <div>
         <Link
           href={"/login"}
@@ -46,7 +46,7 @@ function Guest() {
 function AuthorizedUser({ session, HandleSignOut }: Props) {
   return (
     <main className="flex flex-col items-center justify-center">
-      <h3 className="my-2 font-bold">Authorized User Homepage</h3>
+      <h3 className="my-2 font-bold">For Authorized User Homepage</h3>
       <div className="my-2">
         <h5>{session.user?.name}</h5>
         <h5>{session.user?.email}</h5>
